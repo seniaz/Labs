@@ -2,8 +2,8 @@
 
 const sum = (...args) => {
   let result = 0;
-  for (let i = 0; i < args.length; i++) {
-    result += args[i];
+  for (const arg of args) {
+    result += arg;
   }
   return result;
 };
